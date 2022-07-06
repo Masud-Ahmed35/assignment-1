@@ -1,3 +1,82 @@
-h1{
-    color: brown;
+body {
+    font-family: 'Finlandica', sans-serif;
+}
+
+#header {
+    color: white;
+}
+
+.text {
+    text-align: center;
+
+}
+
+.donate-today {
+    padding-top: 50px;
+}
+
+.header-background-image {
+    background-image: url(images/header.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+.button {
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    color: white;
+    font-size: 20px;
+    font-weight: 900px;
+    padding: 13px 25px;
+    border-radius: 7px;
+}
+
+.taka {
+    text-align: center;
+    padding: 10px 50px 10px 50px;
+}
+
+#color-taka {
+    border: 2px solid tomato;
+    background-color: orange;
+}
+
+.input-class {
+
+    width: 20%;
+    height: auto;
+    padding: 20px;
+    color: white;
+
+}
+
+.flex-class {
+    display: flex;
+    box-shadow: 5px 10px 8px 10px #888888;
+
+}
+
+.width {
+    width: 33%;
+    text-align: justify;
+
+}
+
+#bg-color-1 {
+    background-color: bisque;
+    padding: 5px 5px;
+    margin: 7px 7px;
+}
+
+#bg-color-2 {
+    background-color: darkgray;
+    padding: 5px 5px;
+    margin: 7px 7px;
+}
+
+#bg-color-3 {
+    background-color: oldlace;
+    padding: 5px 5px;
+    margin: 7px 7px;
 }
